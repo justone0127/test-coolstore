@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/RedHat-Middleware-Workshops/cloud-native-workshop-v2m1-labs.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "ocp-4.9"]
+	remote = origin
+	merge = refs/heads/ocp-4.9
+[branch "ocp-4.10"]
+	remote = origin
+	merge = refs/heads/ocp-4.10
